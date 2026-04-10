@@ -18,6 +18,15 @@
 
 ## 開発
 
+## アセット
+
+| ファイル | URL |
+|----------|-----|
+| `public/assets/logo.png` | https://donburi.cc/assets/logo.png |
+| `public/assets/logo.svg` | https://donburi.cc/assets/logo.svg |
+
+## 開発
+
 ```bash
 npm install
 npm run dev
