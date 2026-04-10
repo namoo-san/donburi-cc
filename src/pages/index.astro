@@ -5,10 +5,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>donburi.cc</title>
+    <title>donburi.cc - どんぶりシステムズ</title>
+    <meta name="description" content="どんぶりシステムズが運営するWebサービスです。Google認証を利用したアカウント管理機能を提供します。" />
   </head>
   <body>
-    <main>🍜</main>
+    <main>
+      <div class="hero">🍜</div>
+      <p class="desc">どんぶりシステムズが運営するWebサービスです。<br />Google認証を利用したアカウント管理機能を提供します。</p>
+    </main>
     <footer><a href="/terms">Terms of Service</a> | <a href="/privacy">Privacy Policy</a> | &copy; 2026 どんぶりシステムズ</footer>
   </body>
 </html>
@@ -26,9 +30,18 @@
   main {
     flex: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .hero {
     font-size: 8rem;
+  }
+  .desc {
+    color: #666;
+    font-size: 0.85rem;
+    text-align: center;
+    line-height: 1.6;
   }
   footer {
     text-align: center;
