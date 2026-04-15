@@ -19,7 +19,7 @@
   </head>
   <body>
     <main>
-      <div class="hero">🍜</div>
+      <img class="hero" src="/assets/logo.svg" alt="どんぶりシステムズのロゴ" />
       <p class="desc">どんぶりシステムズが運営するWebサービスです。<br />Google認証を利用したアカウント管理機能を提供します。</p>
     </main>
     <footer><a href="/terms">Terms of Service</a> | <a href="/privacy">Privacy Policy</a> | &copy; 2026 どんぶりシステムズ</footer>
@@ -44,7 +44,8 @@
     justify-content: center;
   }
   .hero {
-    font-size: 8rem;
+    width: min(18rem, 60vw);
+    height: auto;
   }
   .desc {
     color: #666;
